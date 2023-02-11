@@ -1,0 +1,79 @@
+
+h1 {
+    background-image: linear-gradient(white, red);
+    color: black;
+    font-family: Luminari, fantasy;
+    text-shadow: 10px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    
+}
+body {
+    background-image: linear-gradient(to bottom, #ffffff, #e2ddf5, #c6bcea, #ab9bde, #907bd1, #7c80e1, #5d85f0, #008cfe, #00b4ff, #00d4f9, #00ecb7, #5ffb65);
+}
+nav {
+    text-align: center;
+    font-size: 25px;
+    background-image: linear-gradient(red, white);
+}
+nav ul {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    color: purple;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+main {
+     color: #000000;
+	 font-family: Impact, fantasy;
+     
+
+}
+h2 {
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+section {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+p {
+    margin: 0 auto;
+}
+footer {
+    background-color: #08ff52;
+    width: 100%;
+}
+.content {
+    width: 100vw;
+}
+.left {
+    float: left;
+    top: 0;
+    left: 0;
+    width: 80vw;
+}
+.right {
+    float: right;
+    right: 0;
+    top: 0;
+    width: 20vw;
+}
+#email {
+    margin-top: 200px;
+    transform: rotate(7deg);
+}
