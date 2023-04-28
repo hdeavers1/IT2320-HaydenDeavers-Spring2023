@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Tri-C Lemonade Stand LLC - Point of Sales</title>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js" 
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" 
+      crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link href="resources/normalize.css" rel="stylesheet">
+      <link href="resources/skeleton.css" rel="stylesheet">
+      <link href="project.css" rel="stylesheet">
+      <script src="project.js"></script>
+      <style>
+         div#itemsParent
+         {
+            padding: 15px;
+            background-color: #f3f3f3;
+         }
+      </style>
+   <!--i moved the functions to the js file -->
+   <script></script>
+   </head>
+   <body>
+      <div class="container">
+         <header class="mainheader">
+            <h1>
+               <img src="resources/logo.png" height="150"/>
+               &nbsp;&nbsp;
+               Tri-C Lemonade Point of Sales
+            </h1>
+         </header>
+         <div class="left">
+            <nav>
+               <ul>
+                  <li><a href="project.html">Home</a></li>
+                  <li><a href="https://www.tri-c.edu" target="_blank">Tri-C.edu</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="maincontent">
+            <p>
+               Welcome to the official point of sales sytem for the Tri-C Lemonade Stand! This is where you can create an order for a lemonade stand customer!
+            </p>
+            <ul class="panels">
+               <li>
+                  <h4>Classic Lemonade</h4>
+                  <p>
+                     You can't go wrong with a drink that has satisfied thirsty people for years. Take home a classic today!
+                  </p>
+                  <p><strong>$5.00</strong></p>
+                  <button id="addToOrder0">Add</button><br>
+                  <button id="removeFromOrder0">Remove</button>
+               </li>
+               <li>
+                  <h4>Strawberry Lemonade</h4>
+                  <p>
+                     The merging of two classic flavors into one! Enjoy this solid twist on traditional lemonade. A crowd pleaser.
+                  </p>
+                  <p><strong>$6.00</strong></p>
+                  <button id="addToOrder1">Add</button><br>
+                  <button id="removeFromOrder1">Remove</button>
+               </li>
+               <li>
+                  <h4>Special Limeade</h4>
+                  <p>
+                     A fresh take on a classic drink, Limeade will be sure to please those that prefer the taste of lime and sugar.
+                  </p>
+                  <p><strong>$8.00</strong></p>
+                  <button id="addToOrder2">Add</button><br>
+                  <button id="removeFromOrder2">Remove</button>
+               </li>
+            </ul>
+            <div id="itemsParent">
+               <h5>Transaction Items:</h5>
+               <ul id="itemsList">
+                  <li>Classic Lemonade x<span id='quantity0'></span>:<div id="lemonade"></div></li>
+                  <li>Strawberry Lemonade x<span id='quantity1'></span>:<div id="strawberry"></div></li>
+                  <li>Special Limeade x<span id='quantity2'></span>:<div id="limeade"></div></li>
+                  <li><strong>Total:</strong><div id='total'></div></li>
+               </ul>
+               <button id="clearAllItems">Clear Items</button>
+            </p>
+         </div>
+         <footer class="mainfooter">
+            Page layout sourced from <a href="https://gridbyexample.com/examples/page-layout/" target="_blank">Grid By Example</a>.<br/>
+            Find out about Skeleton <a href="http://getskeleton.com/" target="_blank">here</a>.
+         </footer>
+      </div>
+   </body>
+</html>
